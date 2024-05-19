@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BootWeb</title>
+  <!-- external css -->
+  <link rel="stylesheet" href="style.css">
+  <!--bootstrap-->
+  <link rel="stylesheet" href="../bootstrap.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <!-- icons-link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- navigation  -->
+  <nav id="top-nav" class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#"><i class="bi bi-search"></i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Web Development</a>
+            <a class="dropdown-item" href="#">App Development</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">SEO</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0" id="searchform">
+        <input id="searchbox" class="form-control mr-sm-2 pl-20" type="search" placeholder="Search..."
+          aria-label="Search">
+        <button id="searchbtn" class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          <i class="bi bi-search"></i>
+        </button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- container-fluid -->
+  <div class="container-fluid">
+
+    <!-- banner -->
+
+    <div class="row justify-content-center text-justify" id="banner">
+      <div class="col-md-6" id="bannertext">
+        <h1>First I wanted to be <br>
+          a veterinarian</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi quae exercitationem, saepe harum maxime nam
+          esse cumque doloribus optio nostrum voluptate quibusdam praesentium. Animi optio atque tempore odio ab minima.
+        </p>
+        <button type="button" class="btn" id="banner-btn-1">Contact Us</button>
+        <button type="button" class="btn" id="banner-btn-2">Our Service</button>
+      </div>
+      <div class="col-md-4" id="banner-img">
+        <!-- <img class="img-fluid" src="https://tse4.mm.bing.net/th?id=OIP.oqFjBO7euqtwbxzXtuuTTgHaHs&pid=Api&P=0&h=220" alt="image"> -->
+        <img class="img-fluid"
+          src="https://purepng.com/public/uploads/large/purepng.com-black-dogdog-pet-animal-black-981524653986ga57n.png"
+          alt="image">
+      </div>
+    </div>
+
+    <div class="row justify-content-center text-justify" id="service-field">
+      <div class="col-md-5" id="service-text">
+        <h1>As a veterinarian and lover of Animals.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, nam similique aperiam architecto
+          voluptate assumenda animi sapiente nulla illo autem fugit nobis vitae ad quasi quo. Numquam voluptas
+          consectetur necessitatibus.</p>
+        <button type="button" class="btn" id="service-btn">Our Service</button>
+      </div>
+      <div class="col-md-5">
+        <img class="img-fluid" id="service-img" src="http://cdn.akc.org/content/article-body-image/vet_and_dog_.jpg"
+          alt="image">
+      </div>
+    </div>
+
+    <!-- counter -->
+    <div class="row justify-content-center" id="counter-section">
+      <background-img>
+
+      </background-img>
+      <div class="col-md-3 text-center text-white mt-5 mb-3">
+        <h3><i class="bi bi-heart-pulse counter-icon"></i><br>
+          +42356<br>
+          Happy Clients
+        </h3>
+
+      </div>
+      <div class="col-md-3 text-center text-white mt-5 mb-3">
+        <h3><i class="bi bi-building-add counter-icon"></i><br>
+          +53786 <br>
+          Department
+        </h3>
+      </div>
+      <div class="col-md-3 text-center text-white mt-5 mb-3">
+        <h3><i class="bi bi-eyedropper counter-icon"></i><br>
+          +98778 <br>
+          Vaccination
+        </h3>
+      </div>
+    </div>
+
+    <!-- blog -->
+    <div class="row justify-content-center" id="blog">
+      <div class="col-10 text-center">
+        <h1 id="blog-title">Recent Post</h1>
+        <p id="blog-p" class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque mollitia
+          doloremque sed, neque nemo cumque
+          id. Sequi fugiat blanditiis laboriosam est esse, similique temporibus expedita, eos debitis asperiores
+          consectetur libero.
+        </p>
+      </div>
+
+
+
+      <div class="col-md-3 col-11 mt-4">
+        <img class="img-fluid article-img"
+          src="https://tse2.mm.bing.net/th?id=OIP.vUkEspnuozySD6V266FOQwHaE8&pid=Api&P=0&h=220" alt="">
+
+        <div class="article-detail text-justify">
+          <h4 class="article-title">As a veterinarian and lover of animals.</h4>
+          <p class="article-date">FEBRUARY 09,2023</p>
+          <p class="article-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi vel suscipit.
+            Ut, deleniti
+            temporibus dolor minus, omnis repellendus doloribus molestias magni quibusdam minima exercitationem ipsa,
+            rerum facere suscipit quae.</p>
+          <p><a href="#" class="article-link">Read More+</a></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-11 mt-4">
+        <img class="img-fluid article-img"
+          src="https://tse1.mm.bing.net/th?id=OIP.DLdmGmqyV2oGNzrKc2JmMAHaE8&pid=Api&P=0&h=220" alt="">
+
+        <div class="article-detail text-justify">
+          <h4 class="article-title">As a veterinarian and lover of animals.</h4>
+          <p class="article-date">FEBRUARY 09,2023</p>
+          <p class="article-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi vel suscipit.
+            Ut, deleniti
+            temporibus dolor minus, omnis repellendus doloribus molestias magni quibusdam minima exercitationem ipsa,
+            rerum facere suscipit quae.</p>
+          <p><a href="#" class="article-link">Read More+</a></p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-11 mt-4">
+        <img class="img-fluid article-img" src="https://tse2.explicit.bing.net/th?id=OIP.JxJJi1DrLMkgIifpWQh6YAHaE8&pid=Api&P=0&h=220
+          alt="">
+
+        <div class=" article-detail text-justify">
+        <h4 class="article-title">As a veterinarian and lover of animals.</h4>
+        <p class="article-date">FEBRUARY 09,2023</p>
+        <p class="article-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi vel suscipit.
+          Ut, deleniti
+          temporibus dolor minus, omnis repellendus doloribus molestias magni quibusdam minima exercitationem ipsa,
+          rerum facere suscipit quae.</p>
+        <p><a href="#" class="article-link">Read More+</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="row justify-content-center text-white" id="footer">
+    <div class="col-md-3 col-11">
+      <h4>About</h4>
+      <a href="">History</a><br>
+      <a href="">Our Team</a><br>
+      <a href="">Brand Guidelines</a><br>
+      <a href="">Terms & Condition</a><br>
+      <a href="">Privacy Policy</a>
+    </div>
+    <div class="col-md-2 col-11">
+      <h4>Services</h4>
+      <a href="">How to Order</a><br>
+      <a href="">Our Project</a><br>
+      <a href="">Order Status</a><br>
+      <a href="">Promo</a><br>
+      <a href="">Payment Method</a>
+    </div>
+    <div class="col-md-4 col-11 text-end">
+      <h4>Title Here</h4>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <form action="" id="footer-form">
+        <input type="text" id="footer-search-box">
+        <button type="submit" id="footer-search-submit">
+          <i class="bi bi-cursor-fill"></i>
+        </button>
+      </form>
+      <i class="bi bi-instagram social-icon"></i>
+      <i class="bi bi-facebook social-icon"></i>
+      <i class="bi bi-whatsapp social-icon"></i>
+      <i class="bi bi-twitter social-icon"></i>
+    </div>
+  </div>
+
+
+
+  <!-- container-fluid end -->
+  </div>
+
+
+
+
+
+
+  <!-- js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
